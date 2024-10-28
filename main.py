@@ -1,8 +1,7 @@
-name = 'irina'
-print('Name:', name)
-age = 43
-new_age = age + 1
-print('age:', age)
-print('new_age:', new_age)
-is_student = True
-print('is_student:', bool(is_student))
+number_of_completed_tasks = 12
+number_of_hours_spent = 1.5
+course = 'Python'
+time_per_task = number_of_hours_spent / number_of_completed_tasks
+print('Курс:', course, 'всего задач:', number_of_completed_tasks,
+      'затрачено часов:', number_of_hours_spent, 'среднее время выполнения:',
+      round(time_per_task, 3), 'часа')
